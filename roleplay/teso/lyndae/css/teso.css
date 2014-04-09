@@ -1,0 +1,114 @@
+@font-face {
+    font-family:'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Vollkorn Regular'), local('Vollkorn-Regular'), url(vollkorn.woff) format('woff');
+}
+
+
+h1 {
+    margin: 0;
+}
+
+.doc {
+    font: 1.1em"Vollkorn", Palatino, Times;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    /* 	color: white;
+	 */
+    background: transparent;
+    min-height: 550px;
+    text-align: justify;
+}
+
+
+
+.doc footer {
+    margin-bottom:50px;
+}
+.doc video {
+    margin: 2em 0;
+    border:1px solid #ddd;
+}
+.doc nav {
+    font-size: .9em;
+    font-style: italic;
+    border-bottom: 1px solid #ddd;
+    padding: 1em 0;
+}
+.doc nav p {
+    margin: 0;
+}
+/* Typography
+-------------------------------------------------------- */
+ .doc h1 {
+    margin-top: 0;
+    font-weight: normal;
+}
+.doc h2 {
+    font-weight: normal;
+}
+.doc h3 {
+    font-weight: normal;
+    font-style: italic;
+    margin-top:3em;
+}
+.doc p {
+    margin-top:0;
+    -webkit-hypens:auto;
+    -moz-hypens:auto;
+    hyphens:auto;
+}
+.doc ul {
+    list-style: square;
+    padding-left:1.2em;
+}
+.doc ol {
+    padding-left:1.2em;
+}
+.doc blockquote {
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: 1px solid #ddd;
+}
+.doc code {
+    font-family:"Consolas", "Menlo", "Monaco", monospace, serif;
+    font-size: .9em;
+    background: white;
+}
+.doc a {
+    color: #2484c1;
+    text-decoration: none;
+}
+.doc a:hover {
+    text-decoration: underline;
+}
+.doc a img {
+    border:none;
+}
+.doc h1 a, h1 a:hover {
+    color: #333;
+    text-decoration: none;
+}
+.doc hr {
+    color : #ddd;
+    height : 1px;
+    margin: 2em 0;
+    border-top : solid 1px #ddd;
+    border-bottom : none;
+    border-left: 0;
+    border-right: 0;
+}
+.doc p#heart {
+    font-size: 2em;
+    line-height: 1;
+    text-align: center;
+    color: #ccc;
+}
+.doc .red {
+    color:#B50000;
+}
+.doc h1, h2, img {
+    text-align: center;
+}

@@ -1,0 +1,262 @@
+@font-face {
+    font-family:'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Vollkorn Regular'), local('Vollkorn-Regular'), url(vollkorn.woff) format('woff');
+}
+body {
+    background: #796f57 url("../img/bg-body.png") top center repeat-y;
+    margin: 0;
+    padding: 0;
+}
+
+#background {
+     background: url("../img/elf-breton-v2.jpg") no-repeat top center;
+}
+
+#topbar {
+    height: 40px;
+    width: 100%;
+    background: black;
+}
+#topbar #barcontent {
+    max-width: 960px;
+    width: 80%;
+    margin: 0 auto;
+}
+h1 {
+    margin-top: 40px;
+    text-align: center;
+}
+.notext {
+    display: inline-block;
+    text-indent: -9999999em;
+    width: 375px;
+    height: 80px;
+    background: transparent url("../img/logo.png") no-repeat;
+    margin: 15px auto;
+    text-align: center;
+}
+.container {
+    font: 1.1em"Vollkorn", Palatino, Times;
+    min-width: 628px;
+    max-width: 960px;
+    margin: 0 auto 40px auto;
+    padding: 20px;
+    /*  color: white;
+     */
+    background: rgba(0, 0, 0, 0.3);
+    min-height: 550px;
+    text-align: justify;
+    width: 80%;
+}
+nav.container {
+    margin-bottom: 40px;
+    min-height: 0;
+    font-size: 100%;
+}
+nav ul, footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    vertical-align: baseline;
+}
+nav li, footer li {
+    display: inline-block;
+    margin-right: 40px;
+    vertical-align: middle;
+}
+footer ul {
+    margin-top: 30px;
+}
+footer.container {
+    padding: 0;
+    max-width: 2000px;
+    width: 100% !important;
+    z-index: 1;
+    background: black !important;
+    min-height: 0;
+    margin-bottom: 0;
+}
+.footer-nav {
+    padding: 0 20px 30px;
+    overflow: hidden;
+    min-width: 628px;
+    max-width: 960px;
+    margin: 0 auto;
+    background: transparent;
+    /* logo possible */
+    border-bottom: 1px solid #0080ff;
+    color: #413723;
+}
+.footer-logos {
+    padding-top: 40px;
+    max-width: 1040px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.footer-legal {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: .7em;
+    color: #777;
+    padding: 20px 0 40px;
+    clear: both;
+}
+#left {
+    float: left;
+}
+#right {
+    float: right;
+}
+article {
+    padding: 30px;
+    font: 0.9em"Vollkorn", Palatino, Times;
+    line-height: 180%;
+}
+iframe {
+    background: white;
+    height: 1200px;
+}
+article {
+    /*     background: rgba(220,220,220,0.9);
+     */
+    background: white;
+    color: black;
+    min-height: 490px;
+}
+#barcontent span#right {
+    font-size: .7em;
+    color: #777;
+    line-height: 350%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #0080ff;
+}
+
+@font-face {
+    font-family:'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Vollkorn Regular'), local('Vollkorn-Regular'), url(vollkorn.woff) format('woff');
+}
+
+
+h1 {
+    margin: 0;
+}
+
+.doc {
+    font: 1.1em"Vollkorn", Palatino, Times;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    /*  color: white;
+     */
+    background: transparent;
+    min-height: 550px;
+    text-align: justify;
+}
+
+
+
+.doc footer {
+    margin-bottom:50px;
+}
+.doc video {
+    margin: 2em 0;
+    border:1px solid #ddd;
+}
+.doc nav {
+    font-size: .9em;
+    font-style: italic;
+    border-bottom: 1px solid #ddd;
+    padding: 1em 0;
+}
+.doc nav p {
+    margin: 0;
+}
+/* Typography
+-------------------------------------------------------- */
+ .doc h1 {
+    margin-top: 0;
+    font-weight: normal;
+}
+.doc h2 {
+    font-weight: normal;
+}
+.doc h3 {
+    font-weight: normal;
+    font-style: italic;
+    margin-top:3em;
+}
+.doc p {
+    margin-top:0;
+    -webkit-hypens:auto;
+    -moz-hypens:auto;
+    hyphens:auto;
+}
+.doc ul {
+    list-style: square;
+    padding-left:1.2em;
+}
+.doc ol {
+    padding-left:1.2em;
+}
+.doc blockquote {
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: 1px solid #ddd;
+}
+.doc code {
+    font-family:"Consolas", "Menlo", "Monaco", monospace, serif;
+    font-size: .9em;
+    background: white;
+}
+.doc a {
+    color: #2484c1;
+    text-decoration: none;
+}
+.doc a:hover {
+    text-decoration: underline;
+}
+.doc a img {
+    border:none;
+}
+.doc h1 a, h1 a:hover {
+    color: #333;
+    text-decoration: none;
+}
+.doc hr {
+    color : #ddd;
+    height : 1px;
+    margin: 2em 0;
+    border-top : solid 1px #ddd;
+    border-bottom : none;
+    border-left: 0;
+    border-right: 0;
+}
+.doc p#heart {
+    font-size: 2em;
+    line-height: 1;
+    text-align: center;
+    color: #ccc;
+}
+.doc .red {
+    color:#B50000;
+}
+.doc h1, h2, img {
+    text-align: center;
+}
+
+div#image {
+    text-align: center;
+}

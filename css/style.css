@@ -1,0 +1,157 @@
+@font-face {
+    font-family:'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Vollkorn Regular'), local('Vollkorn-Regular'), url(vollkorn.woff) format('woff');
+}
+body {
+    background: #796f57 url("../img/body-bg.png") top center repeat-y;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+#topbar {
+    height: 40px;
+    width: 100%;
+    background: black;
+}
+#topbar #barcontent {
+    max-width: 960px;
+    width: 80%;
+    margin: 0 auto;
+}
+h1 {
+    margin-top: 40px;
+    text-align: center;
+}
+.notext {
+    display: inline-block;
+    text-indent: -9999999em;
+    width: 250px;
+    height: 63px;
+    background: transparent url("../img/logos/logo.png") no-repeat;
+    margin: 15px auto;
+    text-align: center;
+}
+.container {
+    font: 1.1em"Vollkorn", Palatino, Times;
+    min-width: 628px;
+    max-width: 960px;
+    margin: 0 auto 40px auto;
+    padding: 20px;
+    /*  color: white;
+     */
+    background: rgba(0, 0, 0, 0.3);
+    min-height: 550px;
+    text-align: justify;
+    width: 80%;
+}
+nav.container {
+    margin-bottom: 40px;
+    min-height: 0;
+    font-size: 100%;
+}
+nav ul, footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    vertical-align: baseline;
+}
+nav li, footer li {
+    display: inline-block;
+    margin-right: 40px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 1045px) and (min-width:900px) {
+    nav li {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width:820px) {
+    nav li {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    nav li {
+        margin-right: 7px;
+    }
+}
+footer ul {
+    margin-top: 30px;
+}
+footer.container {
+    padding: 0;
+    max-width: 2000px;
+    width: 100% !important;
+    z-index: 1;
+    background: black !important;
+    min-height: 0;
+    margin-bottom: 0;
+}
+.footer-nav {
+    padding: 0 20px 30px;
+    overflow: hidden;
+    min-width: 628px;
+    max-width: 960px;
+    margin: 0 auto;
+    background: transparent;
+    /* logo possible */
+    border-bottom: 1px solid #0080ff;
+    color: #413723;
+}
+.footer-logos {
+    padding-top: 40px;
+    max-width: 1040px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.footer-legal {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: .7em;
+    color: #777;
+    padding: 20px 0 40px;
+    clear: both;
+}
+#left {
+    float: left;
+}
+#right {
+    float: right;
+}
+article {
+    padding: 30px;
+    font: 0.9em"Vollkorn", Palatino, Times;
+    line-height: 180%;
+}
+iframe {
+    background: white;
+    height: 1200px;
+}
+article {
+    /*     background: rgba(220,220,220,0.9);
+     */
+    background: white;
+    color: black;
+    min-height: 490px;
+}
+#barcontent span#right {
+    font-size: .7em;
+    color: #777;
+    line-height: 350%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #0080ff;
+}
